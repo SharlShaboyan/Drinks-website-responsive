@@ -1,0 +1,8 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.ant-layout-content {
+    background-color: gray;
+    padding: 0px;
+}

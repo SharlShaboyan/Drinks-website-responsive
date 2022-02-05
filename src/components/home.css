@@ -1,0 +1,64 @@
+.home-title, .home-descr {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.home-descr {
+    margin-top: 100px;
+    color: white;
+}
+
+.img > .drinks > div > h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    color: black;
+}
+
+.img {
+    width: 100%;
+    margin: 0px auto;
+    height: 1300px;
+    background-image: url("../../public/images/wallpaper.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 720px) {
+    .home-title, .home-descr {
+        font-size: 20px;
+    }
+
+    .img {
+        background-image: url("../../public/images/wallpaper-half.png");
+    }
+
+    .img > .drinks > div > h2 {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .drinks {
+        width: 100%;
+        display: grid;
+        justify-content: stretch;
+        align-items: stretch;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home-title, .home-descr {
+        font-size: 15px;
+    }
+
+    .home-descr {
+        margin-top: 50px;
+    }
+
+    .drinks {
+        margin-top: 70px;
+    }
+}

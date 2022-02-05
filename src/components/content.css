@@ -1,0 +1,38 @@
+.api-img {
+    height: 200px;
+    width: 200px;
+    margin: 0px auto;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.drink-title {
+    margin: 10px auto;
+}
+
+.wrap {
+    width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+    .api-img {
+        height: 300px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .api-img {
+        height: 200px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .api-img {
+        height: 150px;
+        width: 80%;
+    }
+}

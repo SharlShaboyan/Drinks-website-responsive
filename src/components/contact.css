@@ -1,0 +1,26 @@
+.contact {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact > a {
+    color: white;
+}
+
+.contact-title {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 450px) {
+    .contact {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .contact {
+        font-size: 13px;
+    }
+}
